@@ -1,22 +1,7 @@
 
-
-## PCB
-
-![decade-1](img/decade1_pcb.jpg)
-
----
-
-## Prototype version
-
-![decade-1](img/decade1_prototype.jpg)
-
----
-
 # 🧪 Lab Tool – Precision Resistance Decade (Version 1.0/25)
 
-![PCB Preview](img/decade1_final.jpg)
-🔧 Designed with KiCad • by Andreas Potthoff • Licensed Open Hardware  
-🌐 GitHub: [ElectroDrome/lab-tool-dekade-1](https://github.com/ElectroDrome/lab-tool-dekade-1)
+![PCB Preview](img/decade1_final.jpg)/
 
 ---
 
@@ -111,6 +96,18 @@ This modular precision resistance decade provides 17 adjustable resistance stage
 - Clear trace widths and pad spacings for easy soldering and rework
 
 ![Layout Preview](img/dekade1_schema.svg)
+
+---
+
+## 🧪 PCB
+
+![decade-1](img/decade1_pcb.jpg)
+
+---
+
+## 🧪 PCB Prototype
+
+![decade-1](img/decade1_prototype.jpg)
 
 ---
 
