@@ -20,3 +20,120 @@
 ![decade-1](img/decade1_prototype.jpg)
 
 ---
+
+# 🧪 Lab Tool – Precision Resistance Decade (Version 1.0/25)
+
+![PCB Preview](img/dekade1_render.png)  
+🔧 Designed with KiCad • by Andreas Potthoff • Licensed Open Hardware  
+🌐 GitHub: [ElectroDrome/lab-tool-dekade-1](https://github.com/ElectroDrome/lab-tool-dekade-1)
+
+---
+
+## 📦 Project Overview
+
+This modular precision resistance decade provides 17 adjustable resistance stages from **10 Ω to 2 MΩ**, using high-quality **25-turn Bourns trimmers** mounted on a custom PCB. Ideal for analog testing, calibration workflows, and educational labs, this decade design emphasizes modularity, clarity, and reliability — perfect for engineers, experimenters, and machine logic hobbyists.
+
+---
+
+## 🌟 Features
+
+- 🔁 **17 resistance stages** from 10 Ω to 2 MΩ  
+- 🎚️ **Bourns precision potentiometers** (25-turn, 0.5 W, max 900 V)  
+- 📌 **Summed output** and **single-value taps** for each stage  
+- ⚡ Up to **100 mA load capacity** per trimmer (varies by stage)  
+- 🧰 Direct pinheader access to each tap & screw terminal for summed output  
+- 📐 KiCad layout with clean ground routing and logical spacing  
+- 🪛 Mountable grid PCB for breadboard alignment & enclosure integration  
+- 🖨️ Clearly labeled silkscreen with nominal values and tap references  
+- 🔓 Licensed Open Hardware (CERN-OHL or CC-BY-SA)
+
+---
+
+## 🧰 Applications
+
+- Sensor calibration and analog simulation  
+- RC circuit prototyping and pulse shaping  
+- OpAmp testing with predictable resistance  
+- PWM-based analog filter loading  
+- Reference resistor in microcontroller or LabVIEW experiments  
+- Machine logic debugging and voltage divider tuning  
+
+---
+
+## 🔧 Build Specifications
+
+| Attribute              | Value                                 |
+|------------------------|----------------------------------------|
+| Resistance Range       | 14 Ω – ~3.93 MΩ measured (nominal 10 Ω–2 MΩ)  
+| Adjustments            | 25-turn linear Bourns trimmers  
+| Tolerances             | ±10% trimmer tolerance (nominal), plus measured deviation  
+| Max Voltage            | 900 V DC across stages  
+| Power Dissipation      | 0.5 W max per potentiometer  
+| PCB Size               | Grid-compatible (standard mounting)  
+| Output Taps            | Individual tap headers + summed terminal  
+
+---
+
+## 📊 Measured Values (Stage-to-Stage Overview)
+
+| Tap      | Nominal Value | Measured Min | Measured Max |
+|----------|----------------|--------------|--------------|
+| R10      | 10 Ω           | 2.9 Ω        | 13.8 Ω       |
+| R20      | 20 Ω           | 3.2 Ω        | 22.4 Ω       |
+| R50      | 50 Ω           | 2.5 Ω        | 53.3 Ω       |
+| R100     | 100 Ω          | 3.2 Ω        | 105 Ω        |
+| R200     | 200 Ω          | 2.4 Ω        | 197.1 Ω      |
+| R500     | 500 Ω          | 2.5 Ω        | 507.1 Ω      |
+| R1K      | 1 kΩ           | 2.1 Ω        | 1.014 kΩ     |
+| R2K      | 2 kΩ           | 3.0 Ω        | 1.953 kΩ     |
+| R5K      | 5 kΩ           | 3.2 Ω        | 4.656 kΩ     |
+| R10K     | 10 kΩ          | 2.9 Ω        | 9.830 kΩ     |
+| R20K     | 20 kΩ          | 2.9 Ω        | 19.840 kΩ    |
+| R50K     | 50 kΩ          | 3.0 Ω        | 49.400 kΩ    |
+| R100K    | 100 kΩ         | 3.0 Ω        | 108.000 kΩ   |
+| R200K    | 200 kΩ         | 3.0 Ω        | 201.500 kΩ   |
+| R500K    | 500 kΩ         | 3.0 Ω        | 491.600 kΩ   |
+| R1M      | 1 MΩ           | 4.0 Ω        | 960 kΩ       |
+| R2M      | 2 MΩ           | 3.8 Ω        | 2.083 MΩ     |
+
+🔁 **Total summed output measured: ~14.0 Ω – 3.93 MΩ**
+
+🧠 *Note*: Slight deviations due to trimmer tolerance, contact resistance, temperature drift. No calibration applied — raw measurement data.
+
+---
+
+## 🛠️ Usage Tips
+
+- 🔍 For highest precision: use **low current during measurement**, and **4-wire Kelvin sensing** where possible  
+- 📎 Tighten taps with clean leads or clipped headers for minimal contact noise  
+- 🔧 Use active load or microcontroller ADC for dynamic feedback calibration  
+- 🧪 When combining multiple stages, consider total series resistance and parasitics  
+- 🌡️ Keep temperature stable to avoid thermal drift in high-ohm ranges
+
+---
+
+## 📐 PCB Layout Highlights
+
+- Grid-aligned mounting holes  
+- Ground plane continuity with star output topology  
+- Silkscreen identifiers for each trimmer + tap point  
+- Clear trace widths and pad spacings for easy soldering and rework
+
+![Layout Preview](img/dekade1_schema.svg)
+
+---
+
+## 📚 Documentation Structure
+
+
+---
+
+## 🔓 License
+
+This project is licensed as Open Hardware under the [CERN-OHL-P v2](https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2) or optionally under [Creative Commons Attribution ShareAlike](https://creativecommons.org/licenses/by-sa/4.0/) — free to build, share, improve and re-release.
+
+---
+
+📡 For updates, extensions or feedback, visit [github.com/ElectroDrome](https://github.com/ElectroDrome)  
+🎓 For machine logic and multi-core retro-silicon, check out the Core65X project!
+
