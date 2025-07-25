@@ -103,8 +103,6 @@ This modular precision resistance decade provides 17 adjustable resistance stage
 - Silkscreen identifiers for each trimmer + tap point  
 - Clear trace widths and pad spacings for easy soldering and rework
 
-![Layout Preview](img/dekade1_schema.svg)
-
 ---
 
 ## 🧪 PCB
