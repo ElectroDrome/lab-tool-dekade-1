@@ -1,4 +1,4 @@
-# Precision Resistor Decade
+# Precision Trimmer Resistor Decade
 
 ...
 
