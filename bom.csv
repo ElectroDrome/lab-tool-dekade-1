@@ -1,0 +1,21 @@
+﻿Designator,Footprint,Quantity,Value
+"J1, J10, J11, J12, J13, J14, J15, J16, J17, J2, J3, J4, J5, J6, J7, J8, J9",PinHeader_1x03_P2.54mm_Vertical,17,~
+J18,PinHeader_1x02_P2.54mm_Vertical,1,~
+J20,TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal,1,~
+R1,Potentiometer_Bourns_3296W_Vertical,1,R10
+R10,Potentiometer_Bourns_3296W_Vertical,1,R10k
+R11,Potentiometer_Bourns_3296W_Vertical,1,R20k
+R12,Potentiometer_Bourns_3296W_Vertical,1,R50k
+R13,Potentiometer_Bourns_3296W_Vertical,1,R100k
+R14,Potentiometer_Bourns_3296W_Vertical,1,R200k
+R15,Potentiometer_Bourns_3296W_Vertical,1,R500k
+R16,Potentiometer_Bourns_3296W_Vertical,1,R1M
+R17,Potentiometer_Bourns_3296W_Vertical,1,R2M
+R2,Potentiometer_Bourns_3296W_Vertical,1,R20
+R3,Potentiometer_Bourns_3296W_Vertical,1,R50
+R4,Potentiometer_Bourns_3296W_Vertical,1,R100
+R5,Potentiometer_Bourns_3296W_Vertical,1,R200
+R6,Potentiometer_Bourns_3296W_Vertical,1,R500
+R7,Potentiometer_Bourns_3296W_Vertical,1,R1k
+R8,Potentiometer_Bourns_3296W_Vertical,1,R2k
+R9,Potentiometer_Bourns_3296W_Vertical,1,R5k
