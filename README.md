@@ -15,7 +15,7 @@ This modular precision resistance decade provides 17 adjustable resistance stage
 
 - 📄 [Bill of Materials (BOM)](./bom/bom.csv) – Complete list of components and values  
 - 🖼️ [Circuit Schematic (PNG)](./img/decade1_schematics.png) – Visual overview of the circuit
-- 🧪 [Gerber Files] (./gerber/decade1_gerber.zip) – PCB production files  
+- 🧪 [Gerber Files](./gerber/decade1_gerber.zip) – PCB production files  
 
 ---
 
