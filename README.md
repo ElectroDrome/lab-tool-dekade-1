@@ -1,13 +1,4 @@
-# Precision Trimmer Resistor Decade
 
-...
-
-
-## Final version
-
-![decade-1](img/decade1_final.jpg)
-
----
 
 ## PCB
 
@@ -23,7 +14,7 @@
 
 # 🧪 Lab Tool – Precision Resistance Decade (Version 1.0/25)
 
-![PCB Preview](img/dekade1_render.png)  
+![PCB Preview](img/decade1_final.jpg)
 🔧 Designed with KiCad • by Andreas Potthoff • Licensed Open Hardware  
 🌐 GitHub: [ElectroDrome/lab-tool-dekade-1](https://github.com/ElectroDrome/lab-tool-dekade-1)
 
@@ -123,17 +114,12 @@ This modular precision resistance decade provides 17 adjustable resistance stage
 
 ---
 
-## 📚 Documentation Structure
-
-
----
-
 ## 🔓 License
 
-This project is licensed as Open Hardware under the [CERN-OHL-P v2](https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2) or optionally under [Creative Commons Attribution ShareAlike](https://creativecommons.org/licenses/by-sa/4.0/) — free to build, share, improve and re-release.
+This project is licensed as Open Hardware under the
+- **Hardware** (schematics, layouts, power) [CERN-OHL-P v2](https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2) for (schematics, layouts, power)
+- **Documentation** (Markdown, diagrams) [Creative Commons Attribution ShareAlike](https://creativecommons.org/licenses/by-sa/4.0/) — free to build, share, improve and re-release.
+
+All product names, logos, and brands are property of their respective owners and used in this website are for identification and educational purposes only. Use of these names, logos, and brands does not imply endorsement.
 
 ---
-
-📡 For updates, extensions or feedback, visit [github.com/ElectroDrome](https://github.com/ElectroDrome)  
-🎓 For machine logic and multi-core retro-silicon, check out the Core65X project!
-
