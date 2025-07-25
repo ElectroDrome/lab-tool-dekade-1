@@ -48,7 +48,7 @@ This modular precision resistance decade provides 17 adjustable resistance stage
 
 | Attribute              | Value                                 |
 |------------------------|----------------------------------------|
-| Resistance Range       | 14 Ω – ~3.93 MΩ measured (nominal 10 Ω–2 MΩ)  
+| Resistance Range       | 3.8 Ω – ~3.93 MΩ measured (nominal 10 Ω–2 MΩ)  
 | Adjustments            | 25-turn linear Bourns trimmers  
 | Tolerances             | ±10% trimmer tolerance (nominal), plus measured deviation  
 | Max Voltage            | 900 V DC across stages  
