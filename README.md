@@ -11,6 +11,13 @@ This modular precision resistance decade provides 17 adjustable resistance stage
 
 ---
 
+## 📦 Project Files
+
+- 📄 [Bill of Materials (BOM)](./bom/bom.csv) – Complete list of components and values  
+- 🖼️ [Circuit Schematic (PNG)](./img/decade1_schematics.png) – Visual overview of the circuit  
+
+---
+
 ## 🌟 Features
 
 - 🔁 **17 resistance stages** from 10 Ω to 2 MΩ  
@@ -21,7 +28,7 @@ This modular precision resistance decade provides 17 adjustable resistance stage
 - 📐 KiCad layout with clean ground routing and logical spacing  
 - 🪛 Mountable grid PCB for breadboard alignment & enclosure integration  
 - 🖨️ Clearly labeled silkscreen with nominal values and tap references  
-- 🔓 Licensed Open Hardware (CERN-OHL or CC-BY-SA)
+- 🔓 Licensed Open Hardware (CERN-OHL and CC-BY-SA)
 
 ---
 
@@ -114,8 +121,8 @@ This modular precision resistance decade provides 17 adjustable resistance stage
 ## 🔓 License
 
 This project is licensed as Open Hardware under the
-- **Hardware** (schematics, layouts, power) [CERN-OHL-P v2](https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2) for (schematics, layouts, power)
-- **Documentation** (Markdown, diagrams) [Creative Commons Attribution ShareAlike](https://creativecommons.org/licenses/by-sa/4.0/) — free to build, share, improve and re-release.
+- **Hardware** (schematics, layouts, power) [CERN-OHL-P v2](./CERN_OHL_S_v2.txt) for (schematics, layouts, power)
+- **Documentation** (Markdown, diagrams) [Creative Commons Attribution ShareAlike](./CC_BY-SA_4.0.txt) 
 
 All product names, logos, and brands are property of their respective owners and used in this website are for identification and educational purposes only. Use of these names, logos, and brands does not imply endorsement.
 
